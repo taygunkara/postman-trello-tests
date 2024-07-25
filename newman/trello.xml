@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Trello APIs" tests="25" time="11.140">
+  <testsuite name="Board Operations / CreateBoard" id="b98a924c-0e75-474c-aab7-2cbafceeced3" timestamp="2024-07-25T17:26:37.740Z" tests="29" failures="0" errors="0" time="0.751">
+    <testcase name="Response time is acceptable" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Successful POST request" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.751" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.751" classname="TrelloApIs"/>
+    <testcase name="Response description is correct." time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'descData' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'idOrganization' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'idEnterprise' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'pinned' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'url' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'prefs' type is correct" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'idOrganization' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'url' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'shortUrl' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'prefs' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'labelNames' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' is non-empty" time="0.751" classname="TrelloApIs"/>
+    <testcase name="Basic schema is valid" time="0.751" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Board Operations / GetBoard" id="870b664e-4970-4251-b2c5-5cd744abdd4b" timestamp="2024-07-25T17:26:37.740Z" tests="59" failures="0" errors="0" time="0.312">
+    <testcase name="Response time is acceptable" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Successful GET request" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.312" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.312" classname="TrelloApIs"/>
+    <testcase name="Response description is correct." time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'descData' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'idOrganization' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'idEnterprise' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'pinned' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'url' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'prefs' type is correct" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'idOrganization' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'url' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'shortUrl' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'prefs' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'labelNames' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' is non-empty" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Basic schema is valid" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'permissionLevel' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'hideVotes' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'voting' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'comments' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'invitations' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'selfJoin' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'cardCovers' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'cardCounts' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'isTemplate' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'cardAging' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'calendarFeedEnabled' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'hiddenPluginBoardButtons' is of type 'object'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'switcherViews' is of type 'object'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'background' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'backgroundColor' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'backgroundImage' is of type 'object'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'backgroundTile' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'backgroundBrightness' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'sharedSourceUrl' is of type 'object'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'backgroundImageScaled' is of type 'object'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'backgroundBottomColor' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'backgroundTopColor' is of type 'string'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'canBePublic' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'canBeEnterprise' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'canBeOrg' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'canBePrivate' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'canInvite' is of type 'boolean'" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'hiddenPluginBoardButtons' is an array" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Field 'switcherViews' is an array" time="0.312" classname="TrelloApIs"/>
+    <testcase name="Prefs is an object with correct types" time="0.312" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Board Operations / UpdateBoard" id="0b4ffa06-73cb-4407-a3b7-bf99afd4096e" timestamp="2024-07-25T17:26:37.740Z" tests="29" failures="0" errors="0" time="0.344">
+    <testcase name="Response time is acceptable" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Successful PUT request" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.344" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.344" classname="TrelloApIs"/>
+    <testcase name="Response description is correct." time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'descData' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'idOrganization' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'idEnterprise' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'pinned' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'url' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'prefs' type is correct" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'idOrganization' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'url' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'shortUrl' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'prefs' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'labelNames' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' is non-empty" time="0.344" classname="TrelloApIs"/>
+    <testcase name="Basic schema is valid" time="0.344" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="List Operations / CreateList" id="8f2b09d9-94b1-475b-a1c6-37bf4a0e2ed8" timestamp="2024-07-25T17:26:37.740Z" tests="20" failures="0" errors="0" time="0.360">
+    <testcase name="Response time is acceptable" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Successful POST request" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.360" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' type is correct" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'color' type is correct" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' type is correct" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' is non-empty" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.360" classname="TrelloApIs"/>
+    <testcase name="Basic schema is valid" time="0.360" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="List Operations / GetList" id="5d69ca6f-ed39-4783-bcb0-2d1a47cbc029" timestamp="2024-07-25T17:26:37.740Z" tests="19" failures="0" errors="0" time="0.357">
+    <testcase name="Response time is acceptable" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Successful GET request" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.357" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'color' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'color' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.357" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="List Operations / UpdateList" id="d1e7f765-0fc2-4538-8552-8fb3dd20ac21" timestamp="2024-07-25T17:26:37.740Z" tests="19" failures="0" errors="0" time="0.296">
+    <testcase name="Response time is acceptable" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Successful PUT request" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Response name is correct" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' type is correct" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'color' type is correct" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' is non-empty" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.296" classname="TrelloApIs"/>
+    <testcase name="Basic schema is valid" time="0.296" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Card Operations / CreateCard" id="66cdba68-496e-4bff-ab39-8ce7e3367e4f" timestamp="2024-07-25T17:26:37.740Z" tests="24" failures="0" errors="0" time="0.622">
+    <testcase name="Response time is acceptable" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Successful POST request" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.622" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.622" classname="TrelloApIs"/>
+    <testcase name="Response description is correct." time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' type is correct" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'url' type is correct" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'dateLastActivity' type is correct" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' type is correct" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' is non-empty" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'url' is non-empty" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'dateLastActivity' is non-empty" time="0.622" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' is non-empty" time="0.622" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Card Operations / GetCard" id="71451074-84c4-4628-9f04-eb79fe6d419c" timestamp="2024-07-25T17:26:37.740Z" tests="40" failures="0" errors="0" time="0.294">
+    <testcase name="Response time is acceptable" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Successful GET request" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Badges contains the necessary properties" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Cover contains the necessary properties" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.294" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.294" classname="TrelloApIs"/>
+    <testcase name="Response desc is correct." time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'badges' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'checkItemStates' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'dueComplete' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'dateLastActivity' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'idChecklists' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'idList' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'shortUrl' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'url' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'cover' type is correct" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'badges' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'checkItemStates' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'closed' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'dueComplete' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'dateLastActivity' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'desc' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'idChecklists' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'idList' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'shortUrl' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'url' is non-empty" time="0.294" classname="TrelloApIs"/>
+    <testcase name="Field 'cover' is non-empty" time="0.294" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Card Operations / UpdateCard" id="d3f33693-14cd-486b-abb9-ebb1ace622c7" timestamp="2024-07-25T17:26:37.740Z" tests="9" failures="0" errors="0" time="0.420">
+    <testcase name="Response time is acceptable" time="0.420" classname="TrelloApIs"/>
+    <testcase name="Successful PUT request" time="0.420" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.420" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.420" classname="TrelloApIs"/>
+    <testcase name="Response name is correct" time="0.420" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct" time="0.420" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.420" classname="TrelloApIs"/>
+    <testcase name="Badges contains the necessary properties" time="0.420" classname="TrelloApIs"/>
+    <testcase name="Cover contains the necessary properties" time="0.420" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Checklist Operations / CreateChecklist" id="fc989caa-9fb5-4873-863d-e3eda7fb10ad" timestamp="2024-07-25T17:26:37.740Z" tests="23" failures="0" errors="0" time="0.471">
+    <testcase name="Response time is acceptable" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Successful POST request" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.471" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.471" classname="TrelloApIs"/>
+    <testcase name="Response Board ID is correct." time="0.471" classname="TrelloApIs"/>
+    <testcase name="Response Card ID is correct." time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'idCard' type is correct" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'checkItems' type is correct" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' type is correct" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'idCard' is non-empty" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'checkItems' is non-empty" time="0.471" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' is non-empty" time="0.471" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Checklist Operations / GetChecklist" id="6343cb29-cc12-4eea-bb70-aa7558cdd4d9" timestamp="2024-07-25T17:26:37.740Z" tests="22" failures="0" errors="0" time="0.357">
+    <testcase name="Response time is acceptable" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Successful GET request" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.357" classname="TrelloApIs"/>
+    <testcase name="CheckItems contains the necessary properties" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.357" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.357" classname="TrelloApIs"/>
+    <testcase name="Response Board ID is correct." time="0.357" classname="TrelloApIs"/>
+    <testcase name="Response Card ID is correct." time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'idCard' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'checkItems' type is correct" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'idCard' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.357" classname="TrelloApIs"/>
+    <testcase name="Field 'checkItems' is non-empty" time="0.357" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Checklist Operations / UpdateChecklist" id="d23c364d-ffbd-43ee-8714-5eed7ee814fc" timestamp="2024-07-25T17:26:37.740Z" tests="19" failures="0" errors="0" time="0.355">
+    <testcase name="Response time is acceptable" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Successful PUT request" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Response name is correct" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'idCard' type is correct" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'checkItems' type is correct" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'idCard' is non-empty" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.355" classname="TrelloApIs"/>
+    <testcase name="Field 'checkItems' is non-empty" time="0.355" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Checklist Operations / CreateCheckitem" id="49b1c10a-98ce-4de0-bacf-55243b6e5e5b" timestamp="2024-07-25T17:26:37.740Z" tests="28" failures="0" errors="0" time="0.363">
+    <testcase name="Response time is acceptable" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Successful POST request" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.363" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.363" classname="TrelloApIs"/>
+    <testcase name="Response Checklist ID is correct." time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'nameData' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'state' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'due' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'dueReminder' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'idMember' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'idChecklist' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' type is correct" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'nameData' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'state' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'due' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'dueReminder' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'idMember' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'idChecklist' is non-empty" time="0.363" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' is non-empty" time="0.363" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Checklist Operations / GetCheckitem" id="6708c03d-0170-46e5-a46b-5b4a00de8340" timestamp="2024-07-25T17:26:37.740Z" tests="26" failures="0" errors="0" time="0.349">
+    <testcase name="Response time is acceptable" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Successful GET request" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.349" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.349" classname="TrelloApIs"/>
+    <testcase name="Response Board ID is correct." time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'nameData' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'state' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'due' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'dueReminder' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'idMember' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'idChecklist' type is correct" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'nameData' is non-empty" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'pos' is non-empty" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'state' is non-empty" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'due' is non-empty" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'dueReminder' is non-empty" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'idMember' is non-empty" time="0.349" classname="TrelloApIs"/>
+    <testcase name="Field 'idChecklist' is non-empty" time="0.349" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Checklist Operations / DeleteCheckitem" id="56fc382e-6265-4375-b799-2f0ca3835aee" timestamp="2024-07-25T17:26:37.740Z" tests="6" failures="0" errors="0" time="0.458">
+    <testcase name="Response time is acceptable" time="0.458" classname="TrelloApIs"/>
+    <testcase name="Successful DELETE request" time="0.458" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.458" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.458" classname="TrelloApIs"/>
+    <testcase name="Response has limits property" time="0.458" classname="TrelloApIs"/>
+    <testcase name="Limits property is an empty" time="0.458" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Label Operations / CreateLabel" id="3dc6536a-c654-4740-969e-f3c006b2f550" timestamp="2024-07-25T17:26:37.740Z" tests="21" failures="0" errors="0" time="0.377">
+    <testcase name="Response time is acceptable" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Successful POST request" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.377" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.377" classname="TrelloApIs"/>
+    <testcase name="Response Board ID is correct." time="0.377" classname="TrelloApIs"/>
+    <testcase name="Response Card ID is correct." time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'color' type is correct" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'uses' type is correct" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' type is correct" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'color' is non-empty" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'uses' is non-empty" time="0.377" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' is non-empty" time="0.377" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Label Operations / GetLabel" id="9282bb19-216d-4476-9865-70fd4376fd50" timestamp="2024-07-25T17:26:37.740Z" tests="20" failures="0" errors="0" time="0.255">
+    <testcase name="Response time is acceptable" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Successful GET request" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.255" classname="TrelloApIs"/>
+    <testcase name="Response ID is correct." time="0.255" classname="TrelloApIs"/>
+    <testcase name="Response Board ID is correct." time="0.255" classname="TrelloApIs"/>
+    <testcase name="Response Card ID is correct." time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'color' type is correct" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'uses' type is correct" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'color' is non-empty" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'uses' is non-empty" time="0.255" classname="TrelloApIs"/>
+    <testcase name="Field 'limits' is non-empty" time="0.255" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Label Operations / UpdateLabel" id="7ee1ade4-dc1b-4842-8e59-040d5c5d2062" timestamp="2024-07-25T17:26:37.740Z" tests="19" failures="0" errors="0" time="0.364">
+    <testcase name="Response time is acceptable" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Successful PUT request" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Response contains the necessary properties" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Response name is correct." time="0.364" classname="TrelloApIs"/>
+    <testcase name="Response Updated ID is correct." time="0.364" classname="TrelloApIs"/>
+    <testcase name="Response Board ID is correct." time="0.364" classname="TrelloApIs"/>
+    <testcase name="Response Card ID is correct." time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'id' type is correct" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' type is correct" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'name' type is correct" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'color' type is correct" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'uses' type is correct" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'id' is non-empty" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'idBoard' is non-empty" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'name' is non-empty" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'color' is non-empty" time="0.364" classname="TrelloApIs"/>
+    <testcase name="Field 'uses' is non-empty" time="0.364" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Label Operations / DeleteLabel" id="8b779764-23c2-4412-ac5a-d11fa906b704" timestamp="2024-07-25T17:26:37.740Z" tests="6" failures="0" errors="0" time="0.577">
+    <testcase name="Response time is acceptable" time="0.577" classname="TrelloApIs"/>
+    <testcase name="Successful DELETE request" time="0.577" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.577" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.577" classname="TrelloApIs"/>
+    <testcase name="Response has limits property" time="0.577" classname="TrelloApIs"/>
+    <testcase name="Limits property is an empty" time="0.577" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Checklist Operations / DeleteChecklist" id="dd069ed3-babd-4cee-b4d5-426c74098b55" timestamp="2024-07-25T17:26:37.740Z" tests="6" failures="0" errors="0" time="0.476">
+    <testcase name="Response time is acceptable" time="0.476" classname="TrelloApIs"/>
+    <testcase name="Successful DELETE request" time="0.476" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.476" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.476" classname="TrelloApIs"/>
+    <testcase name="Response has limits property" time="0.476" classname="TrelloApIs"/>
+    <testcase name="Limits property is an empty" time="0.476" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Card Operations / DeleteCard" id="59e614ab-2d4d-47c1-8b02-8a859b6b7e8f" timestamp="2024-07-25T17:26:37.740Z" tests="6" failures="0" errors="0" time="0.777">
+    <testcase name="Response time is acceptable" time="0.777" classname="TrelloApIs"/>
+    <testcase name="Successful DELETE request" time="0.777" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="0.777" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.777" classname="TrelloApIs"/>
+    <testcase name="Response has limits property" time="0.777" classname="TrelloApIs"/>
+    <testcase name="Limits property is an empty" time="0.777" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Board Operations / DeleteBoard" id="84cee2fc-45a1-41a4-bb67-2539bfd07701" timestamp="2024-07-25T17:26:37.740Z" tests="6" failures="0" errors="0" time="1.396">
+    <testcase name="Response time is acceptable" time="1.396" classname="TrelloApIs"/>
+    <testcase name="Successful DELETE request" time="1.396" classname="TrelloApIs"/>
+    <testcase name="Status code is 200" time="1.396" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="1.396" classname="TrelloApIs"/>
+    <testcase name="Response has _value property" time="1.396" classname="TrelloApIs"/>
+    <testcase name="_value property is null" time="1.396" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Board Operations - Negative Tests / CreateBoard_MissingNameField" id="816d20b4-eb3e-4b20-b6e9-33856d287a5b" timestamp="2024-07-25T17:26:37.740Z" tests="7" failures="0" errors="0" time="0.270">
+    <testcase name="Status code is 400" time="0.270" classname="TrelloApIs"/>
+    <testcase name="Content-Type is JSON in header" time="0.270" classname="TrelloApIs"/>
+    <testcase name="CreateBoard_MissingNameField" time="0.270" classname="TrelloApIs"/>
+    <testcase name="Field 'message' type is correct" time="0.270" classname="TrelloApIs"/>
+    <testcase name="Field 'error' type is correct" time="0.270" classname="TrelloApIs"/>
+    <testcase name="Field 'message' is non-empty" time="0.270" classname="TrelloApIs"/>
+    <testcase name="Field 'error' is non-empty" time="0.270" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Board Operations - Negative Tests / CreateBoard_InvalidKey" id="ea7b0525-351f-4c87-b9ca-8c55088c32b6" timestamp="2024-07-25T17:26:37.740Z" tests="3" failures="0" errors="0" time="0.266">
+    <testcase name="Status code is 401" time="0.266" classname="TrelloApIs"/>
+    <testcase name="Content-Type is String in header" time="0.266" classname="TrelloApIs"/>
+    <testcase name="CreateBoard_MissingNameField" time="0.266" classname="TrelloApIs"/>
+  </testsuite>
+  <testsuite name="Board Operations - Negative Tests / CreateBoard_InvalidToken" id="41a165e8-eafa-425a-a175-828960eabe98" timestamp="2024-07-25T17:26:37.740Z" tests="3" failures="0" errors="0" time="0.273">
+    <testcase name="Status code is 401" time="0.273" classname="TrelloApIs"/>
+    <testcase name="Content-Type is String in header" time="0.273" classname="TrelloApIs"/>
+    <testcase name="CreateBoard_MissingNameField" time="0.273" classname="TrelloApIs"/>
+  </testsuite>
+</testsuites>

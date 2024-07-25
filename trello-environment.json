@@ -1,0 +1,243 @@
+{
+	"id": "61dada31-5259-491f-a90e-46cd0b6180e9",
+	"name": "Trello Environment",
+	"values": [
+		{
+			"key": "endpoint",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "boardName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "boardDesc",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedBoardName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedBoardId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedBoardDesc",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "listName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "listId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedListName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedListId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "cardName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "cardDesc",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedCardName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedCardId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedCardDesc",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "checklistName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "checklistId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedChecklistName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedChecklistId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "checkitemName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "checkitemId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedCheckitemName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedCheckitemId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "labelId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "labelName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "labelColor",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedLabelName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedLabelColor",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "updatedLabelId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "emptyBoardName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "invalidKey",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "invalidToken",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "emptyCardName",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "emptyCardId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "emptyBoardId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "boardId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "invalidBoardId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "maxResponseTime",
+			"value": "2000",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "cardId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-07-25T17:17:55.380Z",
+	"_postman_exported_using": "Postman/11.3.2"
+}
