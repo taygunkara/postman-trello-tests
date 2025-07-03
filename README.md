@@ -8,6 +8,8 @@ Welcome to the Trello API Automation Project! This project showcases automated t
 
 ## Table of Contents
 - [Overview](#overview)
+- [Key Features](#key-features)
+- [Future Enhancements](#future-enhancements)
 - [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
 - [Dependencies](#dependencies)
@@ -19,13 +21,24 @@ Welcome to the Trello API Automation Project! This project showcases automated t
 
 ## Overview
 
-This project contains a Postman collection and environment settings designed to test Trello's API functionalities. It includes comprehensive test cases for creating, updating, and managing Trello boards, lists, cards, checklists, and labels.
+This project provides a robust Postman collection to automate the testing of Trello API's core functionalities. It covers essential CRUD (Create, Read, Update, Delete) operations for boards, lists, cards, and checklists. The primary goal is to ensure the reliability and integrity of the API endpoints through automated, repeatable tests.
 
-### Key Features
-- Automated tests for Trello API endpoints
-- Environment management for different API configurations
-- Randomized data generation for test cases
-- Comprehensive response validations and assertions
+## Key Features
+- **Comprehensive CRUD Coverage:** Tests for creating, retrieving, updating, and deleting key Trello resources.
+- **Data-Driven Approach:** Uses variables and pre-request scripts to handle dynamic data.
+- **CI/CD Ready:** Includes Newman command for easy integration into continuous integration pipelines.
+- **Detailed Reporting:** Capable of generating JUnit XML reports for integration with test reporting tools.
+- **Environment Management:** Separates environment-specific configurations (like base URL) from test logic for flexibility.
+
+## Future Enhancements
+This project is actively being improved. The following enhancements are planned to elevate it to a more advanced and resilient framework:
+
+- **Implement Atomic Tests:** Refactor the existing collection to make each API request independent. This will be achieved by:
+    - **Dynamic Data Setup:** Using **pre-request scripts** to create any required data (e.g., creating a board before running a "Get Board" test).
+    - **Automated Teardown:** Using scripts in the **Tests tab** to clean up and delete all test-generated data after a request is completed. This will eliminate test dependencies and increase reliability.
+- **Apply the DRY Principle:** Abstract common tests (e.g., status code checks, schema validation) to the collection or folder level. This will reduce code duplication across individual requests and ensure consistency.
+- **Centralize Reusable Functions:** Create a set of common JavaScript functions in the collection-level variables to be used across different scripts. This will further improve code reuse and maintainability.
+- **Enhance Variable Management:** Move away from hardcoded endpoint paths and fully leverage Postman variables (e.g., `{{baseUrl}}/{{resource}}`) for more dynamic and maintainable request URLs.
 
 ## Project Structure
 
